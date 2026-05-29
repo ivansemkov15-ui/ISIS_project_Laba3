@@ -9,3 +9,4 @@ def total_hours():
 def list_entries():
     for entry in entries:
         print(f"{entry['date']} – {entry['task']}: {entry['hours']} ч")
+ 
